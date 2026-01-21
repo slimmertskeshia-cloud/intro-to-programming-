@@ -1,0 +1,29 @@
+for (var i = 0; i <= 10; i += 2) {
+  console.log(i);
+}
+
+for (var i = 1; i <= 10; i += 2) {
+  console.log(i);
+}
+
+for (var i = 100; i >= 0; i -= 10) {
+  console.log(i);
+}
+c:\Users\slimm\Pictures\Screenshots\Screenshot 2026-01-20 124204.png
+// 4. PRE-INCREMENT (++i)
+// The loop starts with i = 0.
+// Before each iteration ends, i is increased by 1 using pre-increment (++i).
+// The loop runs while i is less than 5.
+// This will print numbers from 0 to 4.
+for (var i = 0; i < 5; ++i) {
+  console.log(i);
+}
+c:\Users\slimm\Pictures\Screenshots\Screenshot 2026-01-20 124839.png
+for (var i = 100; i >= 0; i -= 10) {
+  console.log(i);
+}
+
+for (var i = 0; i < 5; ++i) {
+  console.log(i);
+}
+
