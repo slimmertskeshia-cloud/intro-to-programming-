@@ -1,0 +1,12 @@
+// Start with 100 balloons
+var balloons = 100;
+
+// *= multiplies the value by 2 and stores the result back in balloons
+balloons *= 2; // balloons is now 200
+
+// Start again with 100 balloons
+var balloons = 100;
+
+// /= divides the value by 4 and stores the result back in balloons
+balloons /= 4; // balloons is now 25
+

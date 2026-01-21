@@ -1,0 +1,17 @@
+// Multiplication happens before addition
+15 + 9 * 2;        // 15 + 18 = 33
+
+// Parentheses force addition first
+(15 + 9) * 2;      // 24 * 2 = 48
+
+// Same as the first one because multiplication is already first
+15 + (9 * 2);      // 15 + 18 = 33
+
+// Division happens before addition
+15 + 9 / 3;        // 15 + 3 = 18
+
+// Parentheses force addition first
+(15 + 9) / 3;      // 24 / 3 = 8
+
+// Same as the fourth one because division is already first
+15 + (9 / 3);      // 15 + 3 = 18
