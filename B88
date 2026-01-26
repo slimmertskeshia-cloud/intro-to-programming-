@@ -1,0 +1,4 @@
+var randomBodyParts = ["Toes", "Armpit", "Ears"];
+var randomAdjectives = ["Smelly", "horrible", "wreacked"];
+var randomWords = ["sister", "Neighbour", "Mouse", "Monkey", "Rat", "dog"];
+
