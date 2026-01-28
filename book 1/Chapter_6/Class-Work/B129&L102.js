@@ -1,8 +1,18 @@
-console.log("--------------DO WHILE LOOP-------")
-let number = 3;  // Start with number 3
+// Start with alphabet 'a'
+let alphabet = 'a';  
 
+// End with alphabet 'z'
+let z = 'z';      
+
+// Convert characters to their ASCII codes for comparison
+let currentCode = alphabet.charCodeAt(0); // ASCII code for 'a'
+let endCode = z.charCodeAt(0);            // ASCII code for 'z'
+
+// Do-while loop to print alphabets from 'a' to 'z'
 do {
-    console.log(number); // Print the current number
-    number++;            // Add 3 to the number
-} while (number <= 10000);   // Keep going while number is 10000 or less
+    console.log(String.fromCharCode(currentCode)); // Print current letter
+    currentCode++;                                 // Move to next letter
+} while (currentCode <= endCode);                  // Continue until 'z'
+
+console.log("--------------END OF DO WHILE LOOP-------");
 
